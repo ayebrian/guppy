@@ -1,0 +1,2 @@
+// a simple layout component
+
