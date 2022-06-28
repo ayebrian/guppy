@@ -1,11 +1,14 @@
 import styles from "../styles/Home.module.css";
-var loctime = Date.now();
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Navbar />
+    // use layout.js to wrap the whole page
+   <div className={styles.home_}>
+    <div className={styles.home_post}>
+    <input type="text" placeholder="Enter yoru cringe" className={styles.home_input}/>
     </div>
+
+   </div>
   );
 }
